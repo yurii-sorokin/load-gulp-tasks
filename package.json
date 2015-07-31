@@ -1,0 +1,33 @@
+{
+  "name": "load-gulp-tasks",
+  "version": "0.0.1",
+  "description": "Load gulp tasks",
+  "main": "index.js",
+  "author": {
+    "email": "fortyin@gmail.com",
+    "name": "Yurii Sorokin"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "task",
+    "load"
+  ],
+  "repository": "fortywinkz/load-gulp-tasks",
+  "homepage": "https://github.com/fortywinkz/load-gulp-tasks",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-watch": "^4.3.4"
+  },
+  "dependencies": {
+    "globby": "^2.1.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "yargs": "^3.15.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
