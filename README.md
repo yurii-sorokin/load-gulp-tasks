@@ -1,5 +1,5 @@
 # Load gulp tasks
-> Load gulp tasks using patterns
+> Load gulp tasks using glob matching
 
 Split your tasks across multiple files.
 
@@ -142,7 +142,7 @@ var options = {
 
   // Provide argument options.
   // Useful for creating conditional tasks.
-  // For example, `gulp deploy --port=3000` 
+  // For example, `gulp deploy --port=3000`
   // Type: `Object`
   // Default: require('yarg').argv
   argv: require('minimist')(process.argv),
